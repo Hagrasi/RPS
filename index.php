@@ -16,7 +16,7 @@
             $('.click').click(function() {
                 var human = $(this).attr('id');
                 // alert(id);
-                $.get("brain.php?human=" + human, function(output) {
+                $.get("mind.php?human=" + human, function(output) {
                     var computer = output['computer'];
                     var message = output['message'];
 

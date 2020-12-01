@@ -19,27 +19,27 @@ if ($human == 0) {
     if ($computer == 0) {
         $result['message'] = "Tie";
     } elseif ($computer == 1) {
-        $result['message'] = "Computer Wins You Looses";
+        $result['message'] = "Computer Win, You Lose";
     } elseif ($computer == 2) {
-        $result['message'] = "You Wins Computer Looses";
+        $result['message'] = "You Win, Computer Lose";
     } else {
         $result['message'] = "Error";
     }
 } elseif ($human == 1) {
     if ($computer == 0) {
-        $result['message'] = "You Wins Computer Looses";
+        $result['message'] = "You Win, Computer Lose";
     } elseif ($computer == 1) {
         $result['message'] = "Tie";
     } elseif ($computer == 2) {
-        $result['message'] = "Computer Wins You Looses";
+        $result['message'] = "Computer Win, You Lose";
     } else {
         $result['message'] = "Error";
     }
 } elseif ($human == 2) {
     if ($computer == 0) {
-        $result['message'] = "Computer Wins, You Looses";
+        $result['message'] = "Computer Win, You Lose";
     } elseif ($computer == 1) {
-        $result['message'] = "You Wins, Computer Looses";
+        $result['message'] = "You Win, Computer Lose";
     } elseif ($computer == 2) {
         $result['message'] = "Tie";
     } else {
