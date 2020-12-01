@@ -1,0 +1,49 @@
+.content {
+    text-align: center;
+    padding: 0 10% 0 10%;
+    /* border: 1px solid violet; */
+
+}
+
+#vs {
+    width: 70px;
+    height: 75px;
+
+}
+
+.img {
+    width: 150px;
+}
+
+
+table tr td {
+    /* border: 1px solid; */
+    width: 33%;
+
+}
+
+table {
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.click{
+    cursor: pointer;
+}
+
+th{
+    text-align: center;
+}
+
+.rotateimg180 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* .rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+} */
